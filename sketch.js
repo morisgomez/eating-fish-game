@@ -3,17 +3,17 @@ let y = 200;
 let xFish = 50;
 let yFish = 30;
 let fish;
-let pixelBot; //global variable to access it throughout program.2
+let pixelBot; //global variable to access it throughout program.
  
-function preload() //helps load all media files. //closes preload function
+function preload() //helps load all media files.
 {
   pixelBot = loadImage ('assets/penguin2.jpg');
-  fish = loadImage ('assets/fish.jpg');//accessing jpeg file.
-}
+  fish = loadImage ('assets/fish.jpg'); //accessing jpeg file.
+}  //closes preload function.
 
 function setup() {
   createCanvas(800, 400);
-}//closes setup funcon.
+} //closes setup funcon.
 
 function draw() { 
   background("pink");
@@ -35,4 +35,4 @@ function draw() {
       textSize(32);
       text("you ate the fish!", 400, 200);
     }
-}//closes draw function.
+} //closes draw function.
